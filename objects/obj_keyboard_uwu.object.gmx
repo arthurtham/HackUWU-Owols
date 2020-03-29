@@ -165,6 +165,19 @@ if image_index == 0 {
         audio_play_sound(snd_twiliuwu,0,0)
         text += "twiliuwu" + " "
     }
+} else if (image_index == 5) { //UCLA 100
+    audio_play_sound(snd_uwu,0,0)
+    text = ""
+    switch (irandom_range(0,4)) {
+            case 0: text += "UWULA" + " "; break;
+            case 1: text += "UCZOOM" + " "; break;
+            case 2: text += "MLHuwu" + " "; break;
+            case 3: text += "uwu?" + " "; break;
+            case 4: text += "FURRY" + " "; break;
+        }        
+    with message_box {
+        text += other.text;
+    }
 }
 //TODO: add only "uwu, owo, ewe" but no other text is allowed
 //pass

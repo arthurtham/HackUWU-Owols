@@ -20,6 +20,7 @@
     <sprite>sprites\spr_twilio</sprite>
     <sprite>sprites\spr_uwu</sprite>
     <sprite>sprites\spr_messagebox</sprite>
+    <sprite>sprites\spr_corona</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_default</background>
@@ -41,6 +42,7 @@
     <object>objects\obj_keyboard_uwu</object>
     <object>objects\obj_keyboard_messagebox</object>
     <object>objects\obj_button_sms</object>
+    <object>objects\obj_corona</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_homescreen</room>

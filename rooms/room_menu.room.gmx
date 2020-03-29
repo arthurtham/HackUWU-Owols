@@ -56,6 +56,7 @@
     <instance objName="obj_button" x="240" y="608" name="inst_A0936893" locked="0" code="text = &quot;EMAIL owo&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logo" x="96" y="176" name="inst_4D0660F7" locked="0" code="" scaleX="0.590163946151733" scaleY="0.5891472697258" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="896" y="208" name="inst_69A83CF2" locked="0" code="text = &quot;TEXTS UNTIL#CORUWUVIRUS DEFEATED:&quot;&#xA;shadow = true&#xA;scale = 1.5&#xA;" scaleX="2.25" scaleY="1.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corona" x="896" y="480" name="inst_09BD08CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_black" x="52" y="156" w="52" h="52" xo="0" yo="0" id="10000001" name="inst_5A759E00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -46,6 +46,7 @@ scale = 1
 align = fa_center
 input_name = ""
 phone_check = false
+custom_input = "NULL"
 </string>
           </argument>
         </arguments>
@@ -68,7 +69,7 @@ phone_check = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = get_string("Enter your name: ", text)
+            <string>text = get_string("Enter your "+custom_input+": ", text)
 if (string_length(text) &gt; 16) {
     text = string_copy(text, 0, 16)
 } else if (string_length(text) &lt;= 0) {
@@ -79,7 +80,7 @@ if (phone_check) {
     text = string_digits(text)
     if (string_length(text) != 11) or (string_char_at(text,0) != "1") {
         show_message("Phone number must be 11 digits and a US number!")
-        text = "15555551234"
+        //text = ""
     }
 }
 
