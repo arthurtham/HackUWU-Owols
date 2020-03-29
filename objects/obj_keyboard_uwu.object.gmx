@@ -28,7 +28,7 @@
             <string>image_speed = 0
 image_index = 0 // uwu, owo, ewe
 image_alpha = 0.8
-scale = 1.0
+scale = 0.8
 message_box = obj_keyboard_messagebox
 valign = fa_top
 </string>
@@ -78,7 +78,7 @@ image_yscale = scale;
           <argument>
             <kind>1</kind>
             <string>image_alpha = 0.8
-scale = 1.0
+scale = 0.8
 </string>
           </argument>
         </arguments>
@@ -102,7 +102,7 @@ scale = 1.0
           <argument>
             <kind>1</kind>
             <string>image_alpha = 1.0
-scale = 1.2
+scale = 1.0
 </string>
           </argument>
         </arguments>
@@ -160,7 +160,12 @@ if image_index == 0 {
             ch = string_char_at(text, string_length(text))
         } until (ch == " ");
     }
-} 
+} else if (image_index == 4) {
+    with message_box {
+        audio_play_sound(snd_twiliuwu,0,0)
+        text += "twiliuwu" + " "
+    }
+}
 //TODO: add only "uwu, owo, ewe" but no other text is allowed
 //pass
 

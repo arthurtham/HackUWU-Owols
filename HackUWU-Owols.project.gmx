@@ -10,6 +10,7 @@
     <sound>sound\snd_owo</sound>
     <sound>sound\snd_rickroll</sound>
     <sound>sound\snd_uhoh</sound>
+    <sound>sound\snd_twiliuwu</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_turtle</sprite>
