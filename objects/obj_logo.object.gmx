@@ -39,45 +39,29 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>213</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>-1</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>snd_rickroll</sound>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>6</kind>
-            <sound>snd_rickroll</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>1</string>
+            <kind>1</kind>
+            <string>if global.music == false {
+    global.music = true
+    switch (irandom_range(0,2)) {
+        case 0: audio_play_sound(snd_rickroll,0,1); break;
+        case 1: audio_play_sound(snd_ocean,0,1); break;
+        case 2: audio_play_sound(snd_smash,0,1); break;
+        }
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -101,6 +85,8 @@
             <kind>1</kind>
             <string>global.lock = false
 global.email = false
+global.music = false
+randomize()
 </string>
           </argument>
         </arguments>

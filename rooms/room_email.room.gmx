@@ -62,8 +62,8 @@
     <instance objName="obj_keyboard_messagebox" x="560" y="304" name="inst_328B111C" locked="0" code="" scaleX="21.5" scaleY="10.3225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="240" y="496" name="inst_903CA267" locked="0" code="image_index = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="240" y="144" name="inst_5241E4A1" locked="0" code="text = &quot;KEYBOARD&quot;&#xA;scale = 1.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_uwu" x="128" y="368" name="inst_40D37961" locked="0" code="image_index = 4&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_uwu" x="240" y="368" name="inst_732F1473" locked="0" code="image_index = 5" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_uwu" x="176" y="368" name="inst_40D37961" locked="0" code="image_index = 4&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_uwu" x="304" y="368" name="inst_732F1473" locked="0" code="image_index = 5" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_input" x="1120" y="240" name="inst_6E3EB9D2" locked="0" code="text = &quot;name@email.com&quot;&#xA;scale = 0.5&#xA;input_name = &quot;email&quot;&#xA;color = c_black&#xA;custom_input = &quot;friend's email address&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_email" x="240" y="608" name="inst_65626852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="432" y="704" name="inst_6F978A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

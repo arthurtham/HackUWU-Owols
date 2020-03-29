@@ -11,6 +11,8 @@
     <sound>sound\snd_rickroll</sound>
     <sound>sound\snd_uhoh</sound>
     <sound>sound\snd_twiliuwu</sound>
+    <sound>sound\snd_ocean</sound>
+    <sound>sound\snd_smash</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_turtle</sprite>
@@ -56,6 +58,7 @@
   <rooms name="rooms">
     <room>rooms\room_landing</room>
     <room>rooms\room_homescreen</room>
+    <room>rooms\room_about</room>
     <room>rooms\room_menu</room>
     <room>rooms\room_sms</room>
     <room>rooms\room_email</room>

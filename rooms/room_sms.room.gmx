@@ -64,8 +64,8 @@
     <instance objName="obj_keyboard_uwu" x="240" y="496" name="inst_903CA267" locked="0" code="image_index = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="240" y="144" name="inst_5241E4A1" locked="0" code="text = &quot;KEYBOARD&quot;&#xA;scale = 1.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_sms" x="240" y="608" name="inst_044357F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_uwu" x="128" y="368" name="inst_40D37961" locked="0" code="image_index = 4&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_uwu" x="240" y="368" name="inst_732F1473" locked="0" code="image_index = 5" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_uwu" x="176" y="368" name="inst_40D37961" locked="0" code="image_index = 4&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_uwu" x="304" y="368" name="inst_732F1473" locked="0" code="image_index = 5" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="448" y="656" name="inst_2FB04376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_owl" x="1248" y="80" name="inst_9FAC56DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
