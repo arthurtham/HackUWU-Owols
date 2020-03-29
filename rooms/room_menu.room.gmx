@@ -41,19 +41,19 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_button" x="88" y="64" name="inst_820B2428" locked="0" code="text = &quot;Back&quot;&#xA;next_room = room_homescreen;&#xA;size = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="240" y="528" name="inst_B72DF8AB" locked="0" code="text = &quot;SMS uwu&quot;&#xA;next_room = room_sms&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="240" y="608" name="inst_A0936893" locked="0" code="text = &quot;EMAIL owo&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button" x="240" y="608" name="inst_A0936893" locked="0" code="text = &quot;EMAIL owo&quot;&#xA;next_room = room_email&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logo" x="96" y="64" name="inst_4D0660F7" locked="0" code="" scaleX="0.590163946151733" scaleY="0.5891472697258" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="896" y="208" name="inst_69A83CF2" locked="0" code="text = &quot;TEXTS UNTIL#CORUWUVIRUS DEFEATED:&quot;&#xA;shadow = true&#xA;scale = 1.5&#xA;" scaleX="2.25" scaleY="1.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_corona" x="896" y="480" name="inst_09BD08CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -68,6 +68,8 @@
     <instance objName="obj_minicorona" x="1072" y="80" name="inst_DACEF036" locked="0" code="" scaleX="0.148000001907349" scaleY="0.11599999666214" colour="4294967295" rotation="0"/>
     <instance objName="obj_minicorona" x="528" y="480" name="inst_BF785176" locked="0" code="" scaleX="0.148000001907349" scaleY="0.148000001907349" colour="4294967295" rotation="0"/>
     <instance objName="obj_minicorona" x="1200" y="640" name="inst_58145217" locked="0" code="" scaleX="0.11599999666214" scaleY="0.11599999666214" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turtle" x="528" y="672" name="inst_2D3D7953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_owl" x="1248" y="80" name="inst_E50E2D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_black" x="52" y="52" w="52" h="52" xo="0" yo="0" id="10000001" name="inst_5A759E00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

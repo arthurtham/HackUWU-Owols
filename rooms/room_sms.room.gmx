@@ -41,31 +41,33 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_button" x="88" y="64" name="inst_820B2428" locked="0" code="text = &quot;Back&quot;&#xA;next_room = room_menu;&#xA;size = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_text" x="912" y="160" name="inst_69A83CF2" locked="0" code="text = &quot;send txt msg uwu&quot;&#xA;shadow = true&#xA;scale = 1.5&#xA;" scaleX="2.25" scaleY="1.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_input" x="768" y="272" name="inst_29CE0140" locked="0" code="text = &quot;Anonymous&quot;&#xA;input_name = &quot;name&quot;&#xA;color = c_black&#xA;custom_input = &quot;name&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_input" x="1120" y="272" name="inst_1C091230" locked="0" code="text = &quot;&quot;&#xA;color=c_black&#xA;phone_check = true&#xA;input_name = &quot;phone&quot;&#xA;custom_input = &quot;friend's phone number (1##########)&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_text" x="624" y="272" name="inst_AEF7462B" locked="0" code="text = &quot;Your&#xA;Name&quot;&#xA;align=fa_right&#xA;scale = 0.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_text" x="976" y="272" name="inst_C4CE07B5" locked="0" code="text = &quot;Recipient &#xA;Phone\#&quot;&#xA;align=fa_right&#xA;scale = 0.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_text" x="912" y="128" name="inst_69A83CF2" locked="0" code="text = &quot;snd txt msg uwu&quot;&#xA;shadow = true&#xA;scale = 1.7&#xA;" scaleX="2.25" scaleY="1.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_input" x="768" y="240" name="inst_29CE0140" locked="0" code="text = &quot;Anonymous&quot;&#xA;input_name = &quot;name&quot;&#xA;color = c_black&#xA;custom_input = &quot;name&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_input" x="1120" y="240" name="inst_1C091230" locked="0" code="text = &quot;&quot;&#xA;color=c_black&#xA;phone_check = true&#xA;input_name = &quot;phone&quot;&#xA;custom_input = &quot;friend's phone number (1##########)&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_text" x="624" y="240" name="inst_AEF7462B" locked="0" code="text = &quot;Your&#xA;Name&quot;&#xA;align=fa_right&#xA;scale = 0.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_text" x="976" y="240" name="inst_C4CE07B5" locked="0" code="text = &quot;Recipient &#xA;Phone\#&quot;&#xA;align=fa_right&#xA;scale = 0.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="128" y="240" name="inst_2452234F" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="240" y="240" name="inst_673C0324" locked="0" code="image_index = 1&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="352" y="240" name="inst_B57CFAA4" locked="0" code="image_index = 2&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_messagebox" x="560" y="336" name="inst_328B111C" locked="0" code="" scaleX="21.6774196624756" scaleY="9.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_messagebox" x="560" y="304" name="inst_328B111C" locked="0" code="" scaleX="21.5" scaleY="10.3225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="240" y="496" name="inst_903CA267" locked="0" code="image_index = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="240" y="144" name="inst_5241E4A1" locked="0" code="text = &quot;KEYBOARD&quot;&#xA;scale = 1.5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_sms" x="240" y="608" name="inst_044357F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="128" y="368" name="inst_40D37961" locked="0" code="image_index = 4&#xA;" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard_uwu" x="240" y="368" name="inst_732F1473" locked="0" code="image_index = 5" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turtle" x="448" y="656" name="inst_2FB04376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_owl" x="1248" y="80" name="inst_9FAC56DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_black" x="52" y="52" w="52" h="52" xo="0" yo="0" id="10000001" name="inst_5A759E00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

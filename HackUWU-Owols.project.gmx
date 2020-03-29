@@ -21,12 +21,16 @@
     <sprite>sprites\spr_uwu</sprite>
     <sprite>sprites\spr_messagebox</sprite>
     <sprite>sprites\spr_corona</sprite>
+    <sprite>sprites\spr_owl</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_default</background>
     <background>background\bg_black</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scale_canvas.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_calibri</font>
     <font>fonts\fnt_calibri_impact</font>
@@ -42,14 +46,19 @@
     <object>objects\obj_keyboard_uwu</object>
     <object>objects\obj_keyboard_messagebox</object>
     <object>objects\obj_button_sms</object>
+    <object>objects\obj_button_email</object>
     <object>objects\obj_corona</object>
     <object>objects\obj_minicorona</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_html5controller</object>
+    <object>objects\obj_owl</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_landing</room>
     <room>rooms\room_homescreen</room>
     <room>rooms\room_menu</room>
     <room>rooms\room_sms</room>
+    <room>rooms\room_email</room>
     <room>rooms\room_test</room>
   </rooms>
   <constants number="1">

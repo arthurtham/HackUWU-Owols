@@ -70,6 +70,9 @@ custom_input = "NULL"
           <argument>
             <kind>1</kind>
             <string>text = get_string("Enter your "+custom_input+": ", text)
+if (input_name == "email") {
+    exit
+}
 if (string_length(text) &gt; 16) {
     text = string_copy(text, 0, 16)
 } else if (string_length(text) &lt;= 0) {

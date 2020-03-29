@@ -118,6 +118,9 @@ text = "Send SMS"
 name = ""
 phone = ""
 message = obj_keyboard_messagebox.text;
+if string_length(message) &lt; 1 {
+    message = "uwu"
+}
 //Get entries
 with (obj_input) {
     if input_name == "name" {
@@ -191,7 +194,7 @@ if ds_map_find_value(async_load, "id") == post
 
 if (r_str == "success") {
     show_message_async("Text sent successfully!")
-    room_goto(room_sms)
+    room_goto(room_menu)
 } else {
     text = "Try again..."
 }
