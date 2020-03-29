@@ -4,12 +4,52 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_uwu</sound>
+    <sound>sound\snd_ewe</sound>
+    <sound>sound\snd_owo</sound>
+    <sound>sound\snd_rickroll</sound>
+    <sound>sound\snd_uhoh</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_turtle</sprite>
+    <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_button_small</sprite>
+    <sprite>sprites\spr_twilio</sprite>
+    <sprite>sprites\spr_uwu</sprite>
+    <sprite>sprites\spr_messagebox</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_default</background>
+    <background>background\bg_black</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_calibri</font>
+    <font>fonts\fnt_calibri_impact</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_turtle</object>
+    <object>objects\obj_uwu</object>
+    <object>objects\obj_logo</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_twilio</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_input</object>
+    <object>objects\obj_keyboard_uwu</object>
+    <object>objects\obj_keyboard_messagebox</object>
+    <object>objects\obj_button_sms</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_homescreen</room>
+    <room>rooms\room_menu</room>
+    <room>rooms\room_sms</room>
+    <room>rooms\room_test</room>
+  </rooms>
+  <constants number="1">
+    <constant name="API_IP">"34.83.118.137"</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
