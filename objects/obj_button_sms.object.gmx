@@ -142,7 +142,7 @@ text = "Sending SMS..."
 global.lock = true
 //instance_deactivate_object(obj_button);
 //instance_activate_object(self);
-show_message(name + "," + phone + "," + message)
+//show_message(name + "," + phone + "," + message)
 
 //with (obj_input) {
 //    instance_activate_object(obj_input)

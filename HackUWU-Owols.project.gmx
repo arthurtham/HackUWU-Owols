@@ -43,6 +43,8 @@
     <object>objects\obj_keyboard_messagebox</object>
     <object>objects\obj_button_sms</object>
     <object>objects\obj_corona</object>
+    <object>objects\obj_minicorona</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_homescreen</room>
