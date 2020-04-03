@@ -32,7 +32,7 @@ align = fa_center
 valign = fa_middle
 shadow = true
 color = c_white
-get = http_get("http://"+API_IP+"/getcount.php")
+get = http_get("https://"+API_IP+"/getcount.php")
 </string>
           </argument>
         </arguments>

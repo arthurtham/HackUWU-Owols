@@ -4,7 +4,7 @@
   <width>1366</width>
   <height>768</height>
   <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -61,6 +61,8 @@
     <instance objName="obj_wall" x="512" y="544" name="inst_A0D08296" locked="0" code="" scaleX="16.75" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1048" y="512" name="inst_5D79DCEA" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_owl" x="1248" y="80" name="inst_44D766D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_text" x="32" y="48" name="inst_1185C6E6" locked="0" code="text = &quot;v.&quot;+GM_version&#xA;align = fa_left&#xA;shadow = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_text" x="696" y="704" name="inst_6A118B68" locked="0" code="text = &quot;(c) 2020 BrowntulStar&quot;&#xA;align = fa_center&#xA;shadow = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

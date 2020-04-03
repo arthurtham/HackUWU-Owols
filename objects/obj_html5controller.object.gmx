@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>base_width = room_width;
-base_height = room_height;
+            <string>base_width = 1920//room_width;
+base_height = 1080//room_height;
 width = base_width;
 height = base_height;
 </string>

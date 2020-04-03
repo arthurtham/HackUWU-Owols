@@ -151,7 +151,7 @@ global.lock = true
 //    instance_activate_object(obj_input)
 //}
 
-post = http_post_string("http://"+API_IP+"/send.php", "name="+name+"&amp;phone="+phone+"&amp;message="+message)
+post = http_post_string("https://"+API_IP+"/send.php", "name="+name+"&amp;phone="+phone+"&amp;message="+message)
 </string>
           </argument>
         </arguments>

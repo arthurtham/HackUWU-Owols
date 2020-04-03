@@ -20,6 +20,7 @@
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_button_small</sprite>
     <sprite>sprites\spr_twilio</sprite>
+    <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_uwu</sprite>
     <sprite>sprites\spr_messagebox</sprite>
     <sprite>sprites\spr_corona</sprite>
@@ -65,7 +66,7 @@
     <room>rooms\room_test</room>
   </rooms>
   <constants number="1">
-    <constant name="API_IP">"34.83.118.137"</constant>
+    <constant name="API_IP">"www.hackuwu.tech/owols"</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
